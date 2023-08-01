@@ -72,12 +72,25 @@ html{
 .fs-20{
     font-size: 20px;
 }
+.fs-26{
+    font-size: 26px;
+}
+.fw-slime{
+    font-weight: 500;
+}
 .fs-head{
     font-size: 3rem;
 }
 .accent-btn:hover{
     background-color: var(--hover-color);
     color: var(--white-color);
+}
+.hAfter::after{
+    content: '';
+    position: absolute;
+    width: 45px;
+    border: 2px solid black;
+    bottom: 0;
 }
 /* -/comon style */
 
@@ -160,11 +173,11 @@ html{
 /* -/cerosul */
 
 /* feature */
-.contaent-featuer .icon{
+ .icon{
     width: 60px;
     height: 60px;
 }
-.contaent-featuer .icon i{
+ .icon i{
     font-size: 32px;
     color: var(--accent-color);
 }
@@ -173,6 +186,13 @@ html{
     color: var(--theme-bg-color);
 }
 /* -/feature */
+
+/* about */
+.about-img{
+    object-fit: cover;
+    height: 400px;
+}
+/* -/about */
 
 /* -/main */
 
@@ -299,6 +319,11 @@ html{
         top: 100%;
         opacity: 1;
         visibility: visible;
+    }
+    #about .container{
+        min-width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
     }
 
 }
