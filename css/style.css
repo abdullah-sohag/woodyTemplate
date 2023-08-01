@@ -198,7 +198,7 @@ html{
 /* -/feature */
 
 /* about */
-.about-img{
+.section-img{
     object-fit: cover;
     height: 400px;
 }
@@ -343,10 +343,14 @@ html{
         opacity: 1;
         visibility: visible;
     }
-    #about .container{
+     .container-fix{
         min-width: 100vw;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    #choose-us .section-img{
+        height: 421px;
     }
 
 }
