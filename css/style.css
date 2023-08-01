@@ -159,6 +159,21 @@ html{
 }
 /* -/cerosul */
 
+/* feature */
+.contaent-featuer .icon{
+    width: 60px;
+    height: 60px;
+}
+.contaent-featuer .icon i{
+    font-size: 32px;
+    color: var(--accent-color);
+}
+.contaent-featuer .naum{
+    font-size: 74px;
+    color: var(--theme-bg-color);
+}
+/* -/feature */
+
 /* -/main */
 
 
