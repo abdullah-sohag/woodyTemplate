@@ -30,6 +30,9 @@ html{
 .w-mx-contant{
     width: max-content;
 }
+.h-mx-contant{
+    height: max-content;
+}
 /* ---- */
 
 .open-sans{
@@ -216,6 +219,38 @@ html{
     transform: scale(1.2);
 }
 /* -/our service */
+
+/* our section */
+#oursection .img-box{
+    height: 325px;
+}
+#oursection .card-img-top{
+    transition-duration: 0.7s;
+}
+#oursection .card:hover .card-img-top{
+    transform: scale(1.2);
+}
+.card-overlay{
+    background-color: rgba(53, 53, 53, .7);
+}
+.content-btn{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.card-overlay{
+    top: 100%;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    transition-duration: 0.7s;
+}
+#oursection .card:hover .card-overlay{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* -/our section */
 
 /* -/main */
 
