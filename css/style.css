@@ -62,7 +62,7 @@ html{
 .bg-black{
     background-color: var(--secondary-color);
 }
-.bg-white{
+.bg-whitec{
     background-color: var(--white-color);
 }
 .fs-14{
@@ -252,6 +252,46 @@ html{
 }
 /* -/our section */
 
+/* quote */
+.form-control:focus,.form-select:focus{
+    box-shadow: 0 0 0 .25rem var(--hover-color);
+  }
+.submitbtn:hover{
+    color: var(--white-color);
+}
+/* -/quote */
+
+/* team mamber */
+#teamMamber .card{
+    width: 216px;
+}
+#teamMamber .card .icon-box{
+    top: 50%;
+    transform: translateY(-50%);
+    left: -100%;
+    transition-duration: 0.4s;
+}
+#teamMamber .card .icon-box a:hover{
+    background-color: var(--hover-color);
+}
+#teamMamber .card .icon-box a:hover i{
+    color: var(--white-color);
+}
+#teamMamber .card .card-body{
+    border: 4px solid var(--theme-bg-color);
+    border-top: none;
+}
+#teamMamber .card-img-top{
+    transition-duration: 0.7s;
+}
+#teamMamber .card:hover .card-img-top{
+    transform: scale(1.2);
+}
+#teamMamber .card:hover .icon-box{
+    left: 0;
+}
+/* -/team mamber */
+
 /* -/main */
 
 
@@ -387,6 +427,11 @@ html{
     #choose-us .section-img{
         height: 421px;
     }
+
+
+   #freeQuote .section-img {
+        height: 491px;
+      }
 
 }
 /* xl */
