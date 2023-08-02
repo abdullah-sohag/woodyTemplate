@@ -292,6 +292,59 @@ html{
 }
 /* -/team mamber */
 
+/* testimonial */
+.testimonial-card img{
+    border: 6px solid var(--theme-bg-color);
+}
+.testimonial-artical{
+    border: 5px solid var(--theme-bg-color);
+}
+
+#testimonial .splide__arrow{
+    top: 15%;
+    opacity: 0;
+    transition-duration: 0.7s;
+}
+#testimonial .splide__arrow--prev {
+    left: 31%;
+  }
+
+#testimonial .splide__arrow--next {
+    right: 31%;
+  }
+
+#slid-testimonial:hover .splide__arrow{
+    opacity: 1;
+}
+#slid-testimonial:hover .splide__arrow--prev {
+    left: 40%;
+  }
+#slid-testimonial:hover .splide__arrow--next {
+    right: 40%;
+  }
+#testimonial .splide__slide{
+    position: relative;
+  }
+#testimonial .splide__slide.is-next::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background-image: linear-gradient(to right, rgba(53, 53, 53, 0.206) , rgba(80, 80, 80, 0.716));
+}
+#testimonial .splide__slide.is-prev::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    background-image: linear-gradient(to right, rgba(53, 53, 53, 0.206) , rgba(80, 80, 80, 0.716));
+}
+/* -/testimonial */
+
 /* -/main */
 
 
