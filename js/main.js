@@ -32,3 +32,74 @@ function serviceSort(arg) {
         e.classList.remove('d-none')
     }
 }
+
+// counter
+
+const box = document.getElementById('box');
+
+
+const callbackFunction = function(entries) {
+    if(!entries[0].isIntersecting){
+        return;
+    }else{
+
+        let counterItems = document.querySelectorAll('.naum');
+        let intervel = 1500;
+
+        for (let i of counterItems) {
+            let startCount = 0
+            let endCount = parseInt(i.getAttribute('data-count'))
+            let duration = Math.floor(intervel/endCount)
+            let counter = setInterval(function(){
+                startCount+=1;
+                i.innerHTML = startCount
+                if (startCount == endCount) {
+                    clearInterval(counter)
+                }
+            },duration)
+            
+        }
+        observer.unobserve(box);
+        
+    }
+}
+
+const observer = new IntersectionObserver(callbackFunction,{
+    threshold:1
+    
+});
+
+observer.observe(box);
+ 
+
+
+// -/counter
+
+// type animation
+let type = new Typed(
+    '.txt-anim',
+    {
+        strings:[
+            'Our Service',
+            'Best Service',
+            'Animated Service'
+        ],
+        typeSpeed: 150,
+        backSpeed: 100,
+        loop: true
+    }
+)
+// -/type animation
+
+// aos
+AOS.init();
+// -/aos
+
+// tilt
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 25,
+    speed: 400
+});
+
+
+// -/tilt

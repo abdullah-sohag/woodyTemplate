@@ -196,7 +196,7 @@ html{
 }
 .contaent-featuer .naum{
     font-size: 74px;
-    color: var(--theme-bg-color);
+    color: var(--primary-color);
 }
 /* -/feature */
 
@@ -325,7 +325,7 @@ html{
 #testimonial .splide__slide{
     position: relative;
   }
-#testimonial .splide__slide.is-next::before{
+/* #testimonial .splide__slide.is-next::before{
     content: '';
     position: absolute;
     top: 0;
@@ -333,8 +333,8 @@ html{
     left: 0;
     right: 50%;
     background-image: linear-gradient(to right, rgba(53, 53, 53, 0.206) , rgba(80, 80, 80, 0.716));
-}
-#testimonial .splide__slide.is-prev::before{
+} */
+/* #testimonial .splide__slide.is-prev::before{
     content: '';
     position: absolute;
     top: 0;
@@ -342,6 +342,27 @@ html{
     left: 50%;
     right: 0;
     background-image: linear-gradient(to right, rgba(53, 53, 53, 0.206) , rgba(80, 80, 80, 0.716));
+} */
+
+#testimonial .splide__track::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 75%;
+    right: 0;
+    background-image: linear-gradient(to right, rgba(53, 53, 53, 0.206) , rgba(80, 80, 80, 0.716));
+    z-index: 10;
+}
+#testimonial .splide__track::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 75%;
+    background-image: linear-gradient(to right , rgba(80, 80, 80, 0.716), rgba(53, 53, 53, 0.206));
+    z-index: 10;
 }
 /* -/testimonial */
 
@@ -349,7 +370,23 @@ html{
 
 
 
-
+/* footer */
+.social-container a{
+    border: 1px solid var(--theme-bg-color);
+    font-size: 20px;
+}
+.newsletter form button{
+    margin-left: -100px;
+}
+.copyright-content{
+    border-top: 1px solid var(--primary-color);
+}
+footer a:hover{
+    color: var(--hover-color);
+    letter-spacing: 1.2px;
+    transition: 1s;
+}
+/* -/footer */
 
 
 

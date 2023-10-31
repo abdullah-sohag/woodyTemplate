@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css\splide.min.css">
     <link rel="stylesheet" href="css\bootstrap.min.css">
     <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\aos.css">
 </head>
 <body>
 
@@ -173,7 +174,7 @@
       <!-- feature star -->
       <section>
         <div class="container py-5">
-          <div class="row g-3">
+          <div id="box" class="row g-3">
 
             <div class="col-md-6 col-lg-3">
               <div class="contaent-featuer">
@@ -181,7 +182,7 @@
                 <div class="icon-num d-flex justify-content-between align-items-center">
 
                   <span class="icon center-flex bg-theme"><i class="fa-solid fa-user-check"></i></span>
-                  <span class="naum fw-bolder roboto">01</span>
+                  <span class="naum fw-bolder roboto" data-count="20">20</span>
 
                 </div>
                 <h3 class="roboto fs-20 fw-bold">Creative Designers</h3>
@@ -195,7 +196,7 @@
                 <div class="icon-num d-flex justify-content-between align-items-center">
 
                   <span class="icon center-flex bg-theme"><i class="fa-solid fa-user-check"></i></span>
-                  <span class="naum fw-bolder roboto">01</span>
+                  <span class="naum fw-bolder roboto" data-count="50">50</span>
 
                 </div>
                 <h3 class="roboto fs-20 fw-bold">Creative Designers</h3>
@@ -209,7 +210,7 @@
                 <div class="icon-num d-flex justify-content-between align-items-center">
 
                   <span class="icon center-flex bg-theme"><i class="fa-solid fa-user-check"></i></span>
-                  <span class="naum fw-bolder roboto">01</span>
+                  <span class="naum fw-bolder roboto" data-count="80">80</span>
 
                 </div>
                 <h3 class="roboto fs-20 fw-bold">Creative Designers</h3>
@@ -223,7 +224,7 @@
                 <div class="icon-num d-flex justify-content-between align-items-center">
 
                   <span class="icon center-flex bg-theme"><i class="fa-solid fa-user-check"></i></span>
-                  <span class="naum fw-bolder roboto">01</span>
+                  <span class="naum fw-bolder roboto" data-count="100">100</span>
 
                 </div>
                 <h3 class="roboto fs-20 fw-bold">Creative Designers</h3>
@@ -248,7 +249,7 @@
 
               <div class="aboutus-content bg-theme py-5 ps-4">
 
-                <h2 class=" fs-head fw-bolder roboto color-secondary mb-4 hAfter position-relative">About Us</h2>
+                <h2 class=" fs-head fw-bolder roboto color-secondary mb-4 hAfter position-relative">This is <span class="txt-anim"></span></h2>
 
                 <p class="mb-4 fs-16 open-sans fw-slime color-primary" >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
 
@@ -293,7 +294,7 @@
           <div class="row g-3 py-3">
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-1.jpg" class="card-img-top" alt="image">
                 </div>
@@ -306,7 +307,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-2.jpg" class="card-img-top" alt="image">
                 </div>
@@ -319,7 +320,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-3.jpg" class="card-img-top" alt="image">
                 </div>
@@ -332,7 +333,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-4.jpg" class="card-img-top" alt="image">
                 </div>
@@ -345,7 +346,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-5.jpg" class="card-img-top" alt="image">
                 </div>
@@ -358,7 +359,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
                 <div class="img-box overflow-hidden">
                   <img src="assets\service-6.jpg" class="card-img-top" alt="image">
                 </div>
@@ -467,7 +468,7 @@
           <div class="row g-3 py-3">
 
             <div data-project-type="general" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-1.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -488,7 +489,7 @@
             </div>
 
             <div data-project-type="custom" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-2.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -509,7 +510,7 @@
             </div>
 
             <div data-project-type="general" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-3.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -530,7 +531,7 @@
             </div>
 
             <div data-project-type="custom" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-4.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -551,7 +552,7 @@
             </div>
 
             <div data-project-type="general" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-5.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -572,7 +573,7 @@
             </div>
 
             <div data-project-type="custom" class="col-md-6 col-lg-4 serviss">
-              <div class="card rounded-0">
+              <div class="card rounded-0" data-aos="flip-up" data-aos-delay="150" data-aos-duration="1000">
                 <div class="img-box overflow-hidden position-relative">
                   <img src="assets\service-6.jpg" class="card-img-top h-100 w-100" alt="image">
                   <div class="card-overlay position-absolute overflow-hidden">
@@ -670,7 +671,7 @@
 
             <div class="col-md-6 col-lg-3">
 
-              <div class="card rounded-0 mx-auto">
+              <div class="card rounded-0 mx-auto tilt">
 
                 <div class="img-box overflow-hidden position-relative" style="height: 216px;">
                   <img src="assets\team-1.jpg" class="card-img-top w-100 h-100" alt="image">
@@ -695,7 +696,7 @@
 
             <div class="col-md-6 col-lg-3">
 
-              <div class="card rounded-0 mx-auto">
+              <div class="card rounded-0 mx-auto tilt">
 
                 <div class="img-box overflow-hidden position-relative" style="height: 216px;">
                   <img src="assets\team-2.jpg" class="card-img-top w-100 h-100" alt="image">
@@ -720,7 +721,7 @@
 
             <div class="col-md-6 col-lg-3">
 
-              <div class="card rounded-0 mx-auto">
+              <div class="card rounded-0 mx-auto tilt">
 
                 <div class="img-box overflow-hidden position-relative" style="height: 216px;">
                   <img src="assets\team-3.jpg" class="card-img-top w-100 h-100" alt="image">
@@ -745,7 +746,7 @@
 
             <div class="col-md-6 col-lg-3">
 
-              <div class="card rounded-0 mx-auto">
+              <div class="card rounded-0 mx-auto tilt">
 
                 <div class="img-box overflow-hidden position-relative" style="height: 216px;">
                   <img src="assets\team-4.jpg" class="card-img-top w-100 h-100" alt="image">
@@ -774,7 +775,7 @@
       <!-- -/team mamber -->
 
       <!-- testimonial -->
-      <section id="testimonial">
+      <section id="testimonial" class=" my-3">
         <div class="container py-3">
 
           <h2 class=" fs-head fw-bolder roboto color-secondary mb-4 hAfter position-relative text-center hBefore">Testimonial</h2>
@@ -878,10 +879,153 @@
 
     </main>
     <!-- -/main -->
+
+
+    <!-- footer -->
+    <footer class=" bg-black py-4">
+
+      <div class="container row g-4 g-lg-0 justify-content-center mx-auto pb-3">
+
+        <div class="col-12 d-flex justify-content-center align-items-center col-lg-3 col-md-6">
+          <div class="address-socila w-100">
+
+            <h3 class=" color-white fs-3 fw-bold mb-4">Address</h3>
+
+            <div class="address-links d-flex flex-column gap-3 fs-5 mb-3 w-100">
+
+              <a class=" text-decoration-none color-white" href="#">
+                <i class="fa-solid fa-location-dot"></i>
+                123 Street, New York, USA
+              </a>
+
+              <a class=" text-decoration-none color-white" href="tel:+00000">
+                <i class="fa-solid fa-phone"></i>
+                +012 345 67890
+              </a>
+
+              <a class=" text-decoration-none color-white" href="mailto:example@mail.com">
+                <i class="fa-solid fa-envelope"></i>
+                info@example.com
+              </a>
+
+            </div>
+
+            <div class="social-container d-flex gap-2">
+
+              <a href="#" class="color-white d-flex justify-content-center align-items-center p-3 text-decoration-none w-mx-contant"><i class="fa-brands fa-facebook"></i></a>
+
+              <a class="color-white d-flex justify-content-center align-items-center p-3 text-decoration-none w-mx-contant" href="#"><i class="fa-brands fa-twitter"></i></a>
+
+              <a class="color-white d-flex justify-content-center align-items-center p-3 text-decoration-none w-mx-contant" href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center align-items-center col-lg-3 col-md-6">
+
+          <div class="service w-100">
+
+            <h3 class=" color-white fs-3 fw-bold mb-4">Services</h3>
+            <div class="service-links fs-5 d-flex flex-column gap-2">
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-12 d-flex justify-content-center align-items-center col-lg-3 col-md-6">
+          <div class="quick-link w-100">
+
+            <h3 class=" color-white fs-3 fw-bold mb-4">Quick Links</h3>
+
+            <div class="quick-links fs-5 d-flex flex-column gap-2">
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+              <a href="#" class="text-decoration-none color-white">
+                <i class="fa-solid fa-chevron-right me-2"></i>
+                General Carpentry
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center align-items-center col-lg-3 col-md-6">
+          <div class="newsletter">
+
+            <h3 class=" color-white fs-3 fw-bold mb-4">Quick Links</h3>
+
+            <p class="text-decoration-none color-white fs-5">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+
+            <form action="#" class=" w-mx-contant">
+              <input type="email" placeholder="Your email" class=" py-3 fs-4 ps-3 pe-3">
+              <button type="submit" class=" py-2 fs-6 px-4 bg-accent color-white">SignUp</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container row copyright-content py-3 mx-auto">
+        <div class="col-md-6">
+          <p class=" text-md-start color-white text-center fs-16">© Your Site Name, All Right Reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <p class=" text-md-end color-white text-center fs-16">Designed By HTML Codex</p>
+        </div>
+      </div>
+    </footer>
+    <!-- -/footer -->
     
 
     <script src="js\splide.min.js"></script>
     <script src="js\bootstrap.min.js"></script>
+    <script src="js\typed.umd.js"></script>
+    <script src="js\aos.js"></script>
+    <script src="js\vanilla-tilt.babel.min.js"></script>
     <script src="js\main.js"></script>
 </body>
 </html>
