@@ -1,4 +1,4 @@
-
+// slider
 let splide = new Splide( '#baner' );
     splide.mount();
 
@@ -8,7 +8,9 @@ let splide2 = new Splide( '#slid-testimonial', {
     pagination: false,
   }  );
     splide2.mount();
+// -/ slider
 
+// service sortintg
 function allService(non = true) {
     let div = document.querySelectorAll('[data-project-type]')
     if (non) {
@@ -32,6 +34,7 @@ function serviceSort(arg) {
         e.classList.remove('d-none')
     }
 }
+// -/service sortintg
 
 // counter
 
