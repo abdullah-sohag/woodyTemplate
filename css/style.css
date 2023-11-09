@@ -574,6 +574,25 @@ footer a:hover{
       }
 
 }
+
+/* navigation dropdown */
+@media screen and (max-width: 991px){
+    #menu-drop-contant{
+        position: relative;
+        
+    }
+    #navbarSupportedContent{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 48px;
+        z-index: 20;
+        background: var(--white-color);
+        padding: 15px;
+    }
+}
+/* -/navigation dropdown */
+
 /* xl */
 @media screen and (min-width: 1200px){
     .position-xl-static{
